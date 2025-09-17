@@ -3,23 +3,23 @@
 int main() {
     // Declaração de variáveis para a Carta 1
     char estado_1[50], codigo_1[50], nome_da_cidade_1[100];
-    unsigned int populacao_1; // Tipo correto para o desafio
+    unsigned int populacao_1;
     float area_1;
     float pib_1;
     int pontos_turisticos_1;
     float densidade_1;
     float pib_per_capita_1;
-    float super_poder_1; // Variável para o Super Poder
+    float super_poder_1; 
 
     // Declaração de variáveis para a Carta 2
     char estado_2[50], codigo_2[50], nome_cidade_2[100];
-    unsigned int populacao_2; // Tipo correto para o desafio
-    float area_2;
+    unsigned int populacao_2;
+    float area_2
     float pib_2;
     int pontos_turisticos_2;
     float densidade_2;
     float pib_per_capita_2;
-    float super_poder_2; // Variável para o Super Poder
+    float super_poder_2; 
 
     // ----- Leitura dos dados da Carta 1 -----
     printf("Digite os dados da Carta 1:\n");
@@ -30,7 +30,7 @@ int main() {
     printf("Nome da Cidade: ");
     scanf(" %[^\n]", nome_da_cidade_1);
     printf("Populacao: ");
-    scanf("%u", &populacao_1); // Usando %u para unsigned long int
+    scanf("%u", &populacao_1);
     printf("Area (km²): ");
     scanf("%f", &area_1);
     printf("PIB (em bilhoes de reais): ");
@@ -47,7 +47,7 @@ int main() {
     printf("Nome da Cidade: ");
     scanf(" %[^\n]", nome_cidade_2);
     printf("Populacao: ");
-    scanf("%u", &populacao_2); // Usando %u para unsigned long int
+    scanf("%u", &populacao_2); 
     printf("Area (km²): ");
     scanf("%f", &area_2);
     printf("PIB (em bilhoes de reais): ");
